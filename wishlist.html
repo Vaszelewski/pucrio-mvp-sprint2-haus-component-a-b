@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>HAUS - Everton Vaszelewski</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema, banner e mensagem de Boas Vindas -->
+    <header>
+        <div class="title">
+            <h1>HAUS</h1>
+        </div>
+		<div class="description">
+			<h2>Bem-vindo à HAUS. Um Sistema web de gerenciamento e catalogar coleções de objetos de Música</h2>
+		</div>
+        <div class="banner">
+            <img src="https://images.unsplash.com/photo-1582730147924-d92f4da00252?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlueWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="y">
+        </div>
+		<p>
+		<div class="caixa">    
+            <nav>
+                <ul> 
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./wishlist.html">Lista de Desejos</a></li>
+                    <li><a href="./search_items_api.html">Comprar Itens</a></li>
+                </ul>
+            </nav>  
+		<div>
+    </header>
+
+	<h3 style="text-align: center; color: white;">Adicione items na Lista de Desejos abaixo:</h3>
+
+	 <!-- Campos para popular e adicionar um novo item -->
+	 <section class="newItem">
+        <input type="text" id="newArtist" placeholder="Artista:">
+        <input type="text" id="newDescription" placeholder="Descrição do Item:">
+        <input type="text" id="newFormat" placeholder="Formato:">
+        <button onclick="newItem()" class="addBtn">Incluir na Lista</button>
+    </section>
+
+    <!-- Tabela com items já cadastrados -->
+    <section class="items">
+        <table id="myTableWish">
+            <tr>
+                <th>Artista</th>
+                <th>Descrição do Item</th>
+                <th>Formato</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+    <script src="./jsComponentsC/scriptWishlist.js"></script>
+
+
+	<p>
+		<footer style="text-align: center;"> 2023. MVP de Éverton Vaszelewski</footer>
+	<p>
+</body>
+
+</html>

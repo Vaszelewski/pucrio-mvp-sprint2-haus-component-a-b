@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>HAUS - Everton Vaszelewski</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema, banner e mensagem de Boas Vindas -->
+    <header>
+        <div class="title">
+            <h1>HAUS</h1>
+        </div>
+		<div class="description">
+			<h2>Bem-vindo à HAUS. Um Sistema web de gerenciamento e catalogar coleções de objetos de Música</h2>
+		</div>
+		
+        <div class="banner">
+            <img src="https://images.unsplash.com/photo-1582730147924-d92f4da00252?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlueWx8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="y">
+        </div>
+		<p>
+		<div class="caixa">    
+            <nav>
+                <ul> 
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./wishlist.html">Lista de Desejos</a></li>
+                    <li><a href="./search_items_api.html">Comprar Itens</a></li>
+                </ul>
+            </nav>  
+		<div>
+    </header>
+
+	<h3 style="text-align: center; color: white;">Procure itens nas lojas abaixo:</h3>
+	
+	<div class="search">
+		<h3>Amazon</h3>
+		<input type="text" id="search-input-amazon" placeholder="Insira o título do produto:">
+    	<button onclick="performSearchAmazon()" class="addBtn">Buscar</button>
+		<button class="addBtn" value="Limpar pesquisa" onclick="document.getElementById('search-input-amazon').value = '' " >Limpar pesquisa</button>
+    	<div id="search-results-amazon"></div>
+
+    	<script src="./jsExternalApi/googleSearchAmazon.js"></script>
+	</div>
+
+	<div class="search">
+		<h3>Ebay</h3>
+		<input type="text" id="search-input-ebay" placeholder="Insira o título do produto:">
+    	<button onclick="performSearchEbay()" class="addBtn">Buscar</button>
+		<button class="addBtn" value="Limpar pesquisa" onclick="document.getElementById('search-input-ebay').value = '' " >Limpar pesquisa</button>
+    	<div id="search-results-ebay"></div>
+
+    	<script src="./jsExternalApi/googleSearchEbay.js"></script>
+	</div>
+
+	<div class="search">
+		<h3>Discogs</h3>
+		<input type="text" id="search-input-discogs" placeholder="Insira o título do produto:">
+    	<button onclick="performSearchDiscogs()" class="addBtn">Buscar</button>
+		<button class="addBtn" value="Limpar pesquisa" onclick="document.getElementById('search-input-discogs').value = '' " >Limpar pesquisa</button>
+    	<div id="search-results-discogs"></div>
+
+    	<script src="./jsExternalApi/googleSearchDiscogs.js"></script>
+	</div>
+
+	<p>
+		<footer style="text-align: center;"> 2023. MVP de Éverton Vaszelewski</footer>
+	<p>
+</body>
+
+</html>
