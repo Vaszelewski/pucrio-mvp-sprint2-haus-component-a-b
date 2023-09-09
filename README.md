@@ -27,6 +27,7 @@ Para execução em containers foi utilizado Dockerfile.
 ## Como executar 
 
 Requisitos:
+
 Para correta execução das funcionalidades do sistema, executar primeiramente os passos dos seguintes repositórios:
 - [Componente C 1 - Adicionar item ao catálogo](https://github.com/Vaszelewski/pucrio-mvp-sprint2-haus-component-c-1)
 - [Componente C 2 - Criar Lista de Desejos](https://github.com/Vaszelewski/pucrio-mvp-sprint2-haus-component-c-2)
