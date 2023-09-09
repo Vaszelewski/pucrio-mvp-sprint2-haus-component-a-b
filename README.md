@@ -16,7 +16,7 @@ Requisitos:
 Para correta execução das funcionalidades do sistema, executar primeiramente os passos dos seguintes repositórios:
 - [Componente C 1 - Adicionar item ao catálogo](https://github.com/Vaszelewski/pucrio-mvp-sprint2-haus-component-c-1)
 - [Componente C 2 - Criar Lista de Desejos](https://github.com/Vaszelewski/pucrio-mvp-sprint2-haus-component-c-2)
-- Certificar de que o Docker está instalado em sua máquina e em execução.
+- Certificar de que o [Docker](https://docs.docker.com/engine/install/) está instalado em sua máquina e em execução.
 
 
 Para execução apenas do Frontend deste projeto, siga as Etapas abaixo:
