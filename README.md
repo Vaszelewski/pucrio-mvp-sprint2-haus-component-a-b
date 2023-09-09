@@ -17,7 +17,10 @@ HAUS trata-se de um sistema para catalogar itens de coleção focado em Música 
 Possui três abas:
 - uma aba "Início" para sempre retornar ao index.
 - uma aba "Lista de Desejos", o qual o mesmo pode adicionar itens que deseja comprar no futuro
-- uma aba "Comprar Itens" (com a API externa) onde há três campos de busca para as lojas mais populares no meio da música: Amazon.com, Ebay.com e Discogs.com.
+- uma aba "Comprar Itens" (com a API externa) onde há três campos de busca para as lojas mais populares no meio da música: Amazon.com, Ebay.com e Discogs.com. Método utilizado de GET.
+
+Para este projeto, foi utilizado Javascript, CSS e HTML. Para o Backend (Componentes C 1, C 2) foi utilizado Python e banco de dados SQLite.
+Para execução em containers foi utilizado Dockerfile.
 
 
 ---
