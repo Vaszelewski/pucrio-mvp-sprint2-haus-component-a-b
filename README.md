@@ -4,6 +4,7 @@
 Componente A (FRONTEND) e Component B (Google Custom Search API) do projeto HAUS: Um Sistema web de gerenciamento e catalogar coleções de objetos de Música
 
 Para o Componente B deste projeto, foi utilizada a Google Custom Search API, api pública disponibilizada gratuitamente.
+
 Acesse [aqui](https://console.cloud.google.com/apis/library/customsearch.googleapis.com?hl=pt-br) para ver a Documentação.
 
 ---
@@ -17,6 +18,7 @@ Para correta execução das funcionalidades do sistema, executar primeiramente o
 
 
 Para execução apenas do Frontend deste projeto, siga as Etapas abaixo:
+
 
 Etapas:
 
