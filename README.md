@@ -3,15 +3,17 @@
 
 Componente A (FRONTEND) e Component B (Google Custom Search API) do projeto HAUS: Um Sistema web de gerenciamento e catalogar coleções de objetos de Música
 
+
 Para o Componente B deste projeto, foi utilizada a Google Custom Search API, api pública disponibilizada gratuitamente.
 
 Acesse [aqui](https://console.cloud.google.com/apis/library/customsearch.googleapis.com?hl=pt-br) para ver a Documentação.
+
 
 ---
 ## Como executar 
 
 Requisitos:
-
+- Certificar de que o Docker está instalado em sua máquina e em execução.
 Para correta execução das funcionalidades do sistema, executar primeiramente os passos dos seguintes repositórios:
 - [Componente C 1 - Adicionar item ao catálogo](https://github.com/Vaszelewski/pucrio-mvp-sprint2-haus-component-c-1)
 - [Componente C 2 - Criar Lista de Desejos](https://github.com/Vaszelewski/pucrio-mvp-sprint2-haus-component-c-2)
