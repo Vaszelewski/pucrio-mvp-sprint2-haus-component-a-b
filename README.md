@@ -7,6 +7,7 @@ Componente A (FRONTEND) e Component B (Google Custom Search API) do projeto HAUS
 Para o Componente B deste projeto, foi utilizada a Google Custom Search API, api pública disponibilizada gratuitamente.
 
 Acesse [aqui](https://console.cloud.google.com/apis/library/customsearch.googleapis.com?hl=pt-br) para ver a Documentação.
+Referências: [Solodev](https://www.solodev.com/blog/web-design/adding-google-custom-search-to-your-website.stml#)
 
 
 ---
