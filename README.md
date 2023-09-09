@@ -39,9 +39,6 @@ Para correta execução das funcionalidades do sistema, executar primeiramente o
 Para execução apenas do Frontend deste projeto, siga as Etapas abaixo:
 
 
-Etapas:
-
-
 1 - Clonar o repositório e descompactar da pasta .zip.
 
 2 - Executar o seguinte comando abaixo:
