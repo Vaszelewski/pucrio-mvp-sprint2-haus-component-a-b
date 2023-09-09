@@ -12,6 +12,8 @@ Referências: [Solodev](https://www.solodev.com/blog/web-design/adding-google-cu
 ---
 ## Contexto
 
+![front](https://github.com/Vaszelewski/pucrio-mvp-sprint2-haus-component-a-b/assets/50892923/0074f6cd-56c5-4fd0-96b3-13b179c425c9)
+
 HAUS trata-se de um sistema para catalogar itens de coleção focado em Música (porém podendo ser utilizado para qualquer nicho).
 
 Possui três abas:
