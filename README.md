@@ -43,17 +43,19 @@ Para execução apenas do Frontend deste projeto, siga as Etapas abaixo:
 
 1 - Clonar o repositório e descompactar da pasta .zip.
 
-2 - Executar o seguinte comando abaixo:
+2 - Abrir os arquivos googleSearchAmazon.js, googleSearchDiscogs.js e googleSearchEbay.js e informar a APIKey e CSE code informados previamente nos respectivos campos indicados.
+
+3 - Executar o seguinte comando abaixo:
 ```
 $ pip install google-api-python-client
 ```
 
-2 - Ir ao diretório raiz, onde contém o Dockerfile, e executar como administrador o seguinte comando para construir a imagem Docker:
+4 - Ir ao diretório raiz, onde contém o Dockerfile, e executar como administrador o seguinte comando para construir a imagem Docker:
 ```
 $ docker build -t haus .
 ```
 
-3 - Após a criação da imagem, executar como adminitrador o seguinte comando para rodar o container:
+5 - Após a criação da imagem, executar como adminitrador o seguinte comando para rodar o container:
 ```
 $ sudo docker run --rm -p 8080:80 haus
 ```
