@@ -57,7 +57,7 @@ $ docker build -t haus .
 
 5 - Após a criação da imagem, executar como adminitrador o seguinte comando para rodar o container:
 ```
-$ docker run --rm -p 8080:80 haus
+$ docker run -d -p 8080:80 haus
 ```
 
 Após seguir todos os passos, abrir o link abaixo no bavegador para verificar o status da API em execução
