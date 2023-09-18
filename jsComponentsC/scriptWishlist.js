@@ -74,7 +74,7 @@ const getList = async () => {
 	for (i = 0; i < close.length; i++) {
 	  close[i].onclick = function () {
 		let div = this.parentElement.parentElement;
-		const descricao = div.getElementsByTagName('td')[7].innerHTML
+		const descricao = div.getElementsByTagName('td')[1].innerHTML
 		if (confirm("Você tem certeza?")) {
 		  div.remove()
 		  deleteItem(descricao)
@@ -84,15 +84,14 @@ const getList = async () => {
 	}
   }
   
-  
   /*
 	--------------------------------------------------------------------------------------
 	Função para deletar um item da lista do servidor via requisição DELETE
 	--------------------------------------------------------------------------------------
   */
-  const deleteItem = (cod) => {
-	console.log(cod)
-	let url = 'http://127.0.0.1:8000/item?descricao=' + cod;
+  const deleteItem = (desc) => {
+	console.log(desc)
+	let url = 'http://127.0.0.1:8000/item?descricao=' + desc;
 	fetch(url, {
 	  method: 'delete'
 	})
@@ -140,7 +139,7 @@ const getList = async () => {
 	insertButton(row.insertCell(-1))
 	document.getElementById("newArtist").value = "";
 	document.getElementById("newDescription").value = "";
-	document.getElementById("newFormat").value = "";;
+	document.getElementById("newFormat").value = "";
   
 	removeElement()
   }
